@@ -11,14 +11,14 @@
 .cloud_one{
     background: url('/assets/cloud_1.png');
     @apply absolute top-[65%] left-[10%] w-44 h-24 bg-contain bg-no-repeat z-20;
-    /* animation: cloud_one 25.5s ease-in 5.9s infinite; */
+    animation: cloud_one 25.5s ease-in 5.9s infinite;
     transform: translateX(290%);
 }
 
 .cloud_two{
     background: url('/assets/cloud_2.png');
     @apply absolute top-[49%] left-[50%] w-48 h-24 bg-contain bg-no-repeat z-0;
-    /* animation: cloud_two 18.5s ease-in .9s infinite; */
+    animation: cloud_two 18.5s ease-in .9s infinite;
     transform: translateX(290%);
 }
 
